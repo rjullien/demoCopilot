@@ -1,0 +1,9 @@
+https://octodex.github.com/images/
+
+
+
+
+# works:
+#get and image called surftocat.png from octodex and save it locally
+#get surftocat.png from octodex and save it locally
+#get an image from https://octodex.github.com/images/surftocat.png and save it locally
