@@ -7,3 +7,10 @@ https://octodex.github.com/images/
 #get and image called surftocat.png from octodex and save it locally
 #get surftocat.png from octodex and save it locally
 #get an image from https://octodex.github.com/images/surftocat.png and save it locally
+# from the demo
+#get the image from https://octodex.github.com/images/surftocat.png and save it as surftocat.png 
+
+
+# test if the file exists and if it does, skip the download
+# save response to a file
+
