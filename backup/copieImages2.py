@@ -5,16 +5,13 @@ import os
 
 url = 'https://octodex.github.com/images/surftocat.png'
 
-response = requests.get(url)
-
-# test if the file exists and if it doesn't, save response to a file
-
+# test if the file exists and if it does, skip the download
 if not os.path.exists('surftocat.png'):
+    r = requests.get(url)
     with open('surftocat.png', 'wb') as f:
-        f.write(response.content)
-        print('File saved') # print to the console
+        f.write(r.content)
+        print('File downloaded')
 else:
     print('File already exists')
 
-
-
+    
